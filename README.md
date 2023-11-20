@@ -1,10 +1,10 @@
 # California Housing Price Prediction
 
 ## Overview
-This project is focused on predicting housing prices in California using the California Housing dataset. The script employs a Gradient Boosting Regressor and includes functionality for both correlation analysis and model performance evaluation through cross-validation.
+This project is focused on predicting housing prices in California using the California Housing dataset. The script employs a Gradient Boosting Regressor and includes advanced functionalities such as correlation analysis, model performance evaluation through cross-validation, and hyperparameter optimization using GridSearchCV.
 
 ## Dataset
-The dataset used is the California Housing dataset, which is a well-known dataset in the field of machine learning. It contains data related to housing in California, such as median income, housing median age, average rooms, average bedrooms, population, average occupancy, latitude, and longitude.
+The dataset used is the California Housing dataset, a well-known dataset in the field of machine learning. It contains data related to housing in California, such as median income, housing median age, average rooms, average bedrooms, population, average occupancy, latitude, and longitude.
 
 Below is a feature correlation matrix from the California Housing dataset:
 
@@ -13,6 +13,7 @@ Below is a feature correlation matrix from the California Housing dataset:
 ## Features
 - Gradient Boosting Regressor for prediction
 - Cross-validation for model evaluation
+- Hyperparameter optimization using GridSearchCV to enhance model performance. 
 
 ## How to Run
 1. Clone this repository.
